@@ -102,5 +102,5 @@ ON_SOM_TIT:        "T'esperem a ",
 //-------------------------------------------------------------------------------------------------------------------------
 
 // 8. SEGURETAT
-SITIOS_SEGUROS: ["alterwebstudio.com", "pages.dev", "alterwebstudio.github.io", "localhost", "127.0.0.1"],
+SITIOS_SEGUROS: ["alterwebstudio.com", "pages.dev", "alterweb-studio.github.io", "localhost", "127.0.0.1"],
 };

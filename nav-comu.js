@@ -9,9 +9,9 @@ class NavComu extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <nav class="navbar">
-                <! div class="navbar-logo">
+                <!-- div class="navbar-logo">
                     <img src="${CONFIG.ASSETS}${CONFIG.LOGO}" alt="${CONFIG.NOM}">
-                </div>
+                </div-->
                 <button class="navbar-hamburguesa">☰</button>
                 <ul class="navbar-menu">
                     <li><a href="#Inici">${CONFIG.NAV_INICI}</a></li>

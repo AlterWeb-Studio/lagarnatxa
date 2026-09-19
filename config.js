@@ -37,7 +37,7 @@ URL_RESSENYES:  "https://maps.app.goo.gl/bPUYSe6y6vyTsYwK7",
 
 // 3. IMATGES 
 BACKGROUND:      "", // ← canviar en el css .html{}
-BLOC_HERO:       "images/garnatxa/hero-garnatxa.jpg", 
+BLOC_HERO:       "images/garnatxa/hero-garnatxa.webp", 
 QR:              "qr/qr-.png",
 //-------------------------------------------------------------------------------------------------------------------------
 

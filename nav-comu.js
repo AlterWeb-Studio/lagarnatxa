@@ -32,8 +32,7 @@ class NavComu extends HTMLElement {
         });
 
         window.addEventListener('scroll', () => {
-            const nav = this.querySelector('.navbar');
-            if (nav) nav.classList.toggle('scrolled', window.scrollY > 50);
+            document.body.classList.toggle('scrolled', window.scrollY > 50);
         });
                // ─── BANNER DE COOKIES ────────────────────────────
         // Es penja al final del body, no dins del navbar mateix

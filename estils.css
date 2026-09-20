@@ -48,8 +48,6 @@ html {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    /* Overlay fosc per sobre la imatge de fons */
-    /*background-color: #0f0f0f;*/
     min-height: 100%;
      scroll-behavior: smooth;
 }
@@ -81,7 +79,7 @@ a:hover { text-decoration: underline; }
     transition: background-color 0.3s ease;
 }
 
-.navbar.scrolled {
+body.scrolled .navbar {
     background-color: rgba(15, 15, 15, 0.556);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
@@ -101,6 +99,15 @@ a:hover { text-decoration: underline; }
     cursor: pointer;
     line-height: 1;
     padding: 4px;
+
+    opacity: 0;
+    pointer-events: none;   /* que no es pugui clicar mentre és invisible */
+    transition: opacity 0.3s ease;
+}
+
+body.scrolled .navbar-hamburguesa {
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .navbar-menu {
@@ -661,36 +668,6 @@ a:hover { text-decoration: underline; }
 
 
 
-.barra-fixa-pc { display: none; }
-
-@media (min-width: 1024px) {
-    .barra-fixa-pc {
-        display: none;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 200;
-        background: #0f0f0f;
-        border-bottom: 1px solid var(--fucsia);
-        padding: 6px 20px;
-        gap: 10px;
-        justify-content: center;
-    }
-    .barra-fixa-pc .boto-fix-pc {
-        padding: 6px 16px;
-        border-radius: var(--radi);
-        font-weight: bold;
-        font-size: 12px;
-        color: #fff;
-        text-decoration: none;
-    }
-    .barra-fixa-pc .boto-fix-pc.trucar { background: var(--fucsia); }
-    .barra-fixa-pc .boto-fix-pc.whatsapp { background: #25D366; }
-
-    /* Com que la franja ocupa espai a dalt, cal baixar la navbar */
-    .navbar { top: 2px; }
-}
 .stat-google {
     text-decoration: none;
     color: inherit;

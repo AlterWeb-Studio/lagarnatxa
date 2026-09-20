@@ -637,10 +637,10 @@ body.scrolled .navbar-hamburguesa {
 
     .contacte-grid { grid-template-columns: repeat(2, 1fr); }
 }
-.barra-fixa-mobil { display: none; }
 
-@media (max-width: 550px) {
-  .barra-fixa-mobil {
+/* ─── BARRA FIXA MOBIL ──────────────────────────────────────────────── */
+
+.barra-fixa-mobil {
     display: flex;
     position: fixed;
     bottom: 0;
@@ -651,8 +651,15 @@ body.scrolled .navbar-hamburguesa {
     border-top: 2px solid var(--fucsia);
     padding: 8px 12px;
     gap: 10px;
-  }
-  .barra-fixa-mobil .boto-fix {
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+
+    @media (min-width: 480px) {
+        display: none;
+    }
+}
+
+.barra-fixa-mobil .boto-fix {
     flex: 1;
     text-align: center;
     padding: 12px;
@@ -660,12 +667,21 @@ body.scrolled .navbar-hamburguesa {
     font-weight: bold;
     color: #fff;
     text-decoration: none;
-  }
-  .barra-fixa-mobil .boto-fix.trucar { background: var(--fucsia); }
-  .barra-fixa-mobil .boto-fix.whatsapp { background: #25D366; }
-  body { padding-bottom: 70px; }
+}
+.barra-fixa-mobil .boto-fix.trucar   { background: var(--fucsia); }
+.barra-fixa-mobil .boto-fix.whatsapp { background: #25D366; }
+
+body.scrolled .barra-fixa-mobil {
+    transform: translateY(0);
 }
 
+body {
+    padding-bottom: 70px;
+
+    @media (min-width: 480px) {
+        padding-bottom: 0;
+    }
+}
 
 
 .stat-google {

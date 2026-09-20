@@ -31,7 +31,7 @@ REPO_URL:       "https://alterweb-studio.github.io/lagarnatxa/",
 BASE_URL:       "./",
 BASE_WORKER:    "https://.altervector.workers.dev",
 URL_OFICIAL:    "https://alterweb-studio.github.io/lagarnatxa/",
-ASSETS:         "https://altervector.github.io/assets/",
+ASSETS:         "https://avsets.pages.dev/",
 URL_MAPS:       "https://maps.app.goo.gl/bPUYSe6y6vyTsYwK7",
 URL_RESSENYES:  "https://maps.app.goo.gl/bPUYSe6y6vyTsYwK7",
 

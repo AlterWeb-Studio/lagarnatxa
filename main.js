@@ -8,14 +8,6 @@
     const inicialitzar = async () => {
 
 
-        const capaover = document.getElementById('capaover');
-
-        if (capaover) {
-            capaover.innerHTML = `
-            <div class="capa-overlay"></div>
-            `;
-        }
-
         /* ── 1. NAVBAR 2.0 ────── Per a Subpágines ────────────────────────────────Alt+196───────
         const navbar2 = document.getElementById('navbar2');
         if (navbar2) {
@@ -58,6 +50,8 @@
         if (hero) {
             hero.innerHTML = `
                 <section class="hero" id="Inici">
+                <div class="capa-overlay"></div>
+                <div class="hero_pc">
                 <img class="hero-imatge" src="${CONFIG.ASSETS}${CONFIG.BLOC_HERO}"
                     alt="${CONFIG.NOM}">
                             <!--div class="hero-contingut">
@@ -66,6 +60,7 @@
                                 <h1 class="hero-titol">${CONFIG.NOM}</h1>
                                 <a href="#qui-som" class="hero-boto-principal">${CONFIG.HERO_BOTO}</a>
                             </div-->
+                <div>
                 </section>
             `;
         }
@@ -93,7 +88,7 @@
                         <div class="stat-numero">${CONFIG.ESTRELLES}⭐</div>
                         <div class="stat-label">${CONFIG.ESTRELLES2}</div>
                      <div class="stat-cta">Ver reseñas</div>
-</a>
+                    </a>
 
                 </div>
             `;
@@ -133,10 +128,8 @@
                     <h2 class="seccio-titol">${CONFIG.QUI_SOM}</h2>
                     <p class="seccio-text">${CONFIG.QUI_DESC1}</p>
                     <p class="seccio-text">${CONFIG.QUI_DESC2}</p>
-                    <p class="seccio-text">
-                        ${CONFIG.QUI_DESC3}
-                        <a href="${CONFIG.URL_MAPS}" target="_blank">${CONFIG.ADRECA}</a>.
-                    </p>
+                    <p class="seccio-text">${CONFIG.QUI_DESC3}</p>
+                    <p class="seccio-text"><strong>${CONFIG.QUI_DESC4}</strong></p>
                     <a href="tel:${CONFIG.TELEFON}" class="hero-boto-principal btn-balla"
                         style="display:inline-block; margin-top: 8px;">
                         ${CONFIG.TELEFON_ICO} Trucan's
@@ -148,6 +141,7 @@
                     <h2 class="seccio-titol">${CONFIG.QUE_FEM_SRV}</h2>
                     <p class="seccio-text">${CONFIG.QUE_FEM1}</p>
                     <p class="seccio-text">${CONFIG.QUE_FEM2}</p>
+                    <p class="seccio-text">${CONFIG.QUE_FEM3}</p>
                    <div class="serveis-grid">
                         ${cardsMenus}
                     </div>

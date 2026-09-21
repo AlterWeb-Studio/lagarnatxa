@@ -55,10 +55,11 @@ HERO_BOTO:      "Qui som...",
 
 
 
-QUI_SOM:            "Qui som...",
-QUI_DESC1:          "Can Bellés és el fruit del projecte d'una empresa familiar que va obrir les portes l'any 2007 amb l'objectiu d'oferir als nostres clients un menjar de qualitat en un ambient agradable.",
-QUI_DESC2:          "En la nostra carta trobareu plats típics de la cuina casolana mediterrània, que imprimeixen el caràcter de les nostres tapes, arrossos, carns i peixos a la brasa i les nostres postres casolanes.",
-QUI_DESC3:          "Si ens vols venir a conéixer, estem al carrer",
+QUI_SOM:            "Benvinguts a La Garnatxa de Ca l'Isidret",
+QUI_DESC1:          "A La Garnatxa de Ca l'Isidret reobrim les portes amb la il·lusió d'oferir-vos una experiència gastronòmica autèntica, basada en la cuina mediterrània i casolana. Una cuina que recupera els sabors de sempre, elaborada amb productes frescos i de proximitat, i amb aquell toc especial que neix de la passió per la bona cuina.",
+QUI_DESC2:          "Hi trobareu plats tradicionals reinterpretats amb cura i respecte: tapes, arrossos, carns a la brasa i guisats que ens recorden la cuina de les àvies. I per completar l'experiència, els nostres postres casolans i una selecció de vins pensada per acompanyar cada plat i realçar-ne els sabors.",
+QUI_DESC3:          "El nostre espai és acollidor i està pensat perquè us hi sentiu com a casa, tant si veniu amb família o amics com si voleu celebrar una ocasió especial. A La Garnatxa de Ca l'Isidret, cada detall compta. Us convidem a descobrir la nostra manera d'entendre la gastronomia i a gaudir d'una cuina feta amb sabor, calidesa i dedicació.",
+QUI_DESC4:         "L'equip de La Garnatxa de Ca l'Isidret",
 
 
 COMANDES:           "Comandes per emportar",
@@ -73,8 +74,9 @@ COMANDES4:          "No fem entregues a domicili.",
 
 // 5. SERVEIS (graella)
 QUE_FEM_SRV:        "La nostra cuina..",
-QUE_FEM1:            "Des del nostre petit racó al cor del Penedès, a Can Bellés fem una aposta clara per la cuina tradicional catalana i el producte de proximitat.",
-QUE_FEM2:            "Amb la cuina de brasa com a bandera, oferim als nostres comensals una experiència gastronòmica de sabors arrelats a la nostra tradició.",
+QUE_FEM1:            "A La Garnatxa oferim una cuina basada en productes de proximitat i plats elaborats des de zero. Cada dia proposem un arròs diferent, amb combinacions, textures i estils que permeten gaudir de propostes variades.",
+QUE_FEM2:            "Som un bar-restaurant de tota la vida que, des de l'any 2001, ofereix una carta on el peix i el marisc tenen un paper destacat, sempre amb el nostre estil propi. Els arrossos són una de les nostres especialitats, juntament amb una àmplia varietat de tapes, com el pop a la gallega, les tallarines, els cargols a la llauna o les llàgrimes de pollastre.",
+QUE_FEM3:            "Treballem també amb productes de temporada, peixos i carns de qualitat i una cuina feta amb cura. Entre els nostres serveis, oferim menú diari, que sempre inclou alguna proposta d'arròs, i menú especial els caps de setmana.",
 //-------------------------------------------------------------------------------------------------------------------------
 
 // 6. MAPS MENUS-------------------------------------------------------------------------------------------------------------------------

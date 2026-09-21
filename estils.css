@@ -43,13 +43,8 @@
 }
 
 html {
-    /* Fons que llisca darrere — textura fosca */
-    background-image: url("https://avsets.pages.dev/images/garnatxa/bg-garnatxa.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
     min-height: 100%;
-     scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -60,11 +55,34 @@ body {
     margin: 0 auto;
 }
 
+body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background-image: url("https://avsets.pages.dev/images/garnatxa/bg-garnatxa.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 img   { max-width: 100%; display: block; }
 a     { color: var(--fucsia); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-
+/* Overlay gradient d'esquerra a dreta — fosc a l'esquerra on hi ha el text */
+.capa-overlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: linear-gradient(
+        to right,
+        rgba(0,0,0,0.85) 0%,
+        rgba(0,0,0,0.5)  50%,
+        rgba(0,0,0,0.2)  100%
+    );
+    z-index: 1;
+}
 
 /* ─── NAVBAR ──────────────────────────────────────────────── */
 .navbar {
@@ -164,20 +182,6 @@ body.scrolled .navbar-hamburguesa {
     object-fit: cover;
     z-index: 0;
 }
-
-                            /* Overlay gradient d'esquerra a dreta — fosc a l'esquerra on hi ha el text 
-                            .hero-overlay {
-                                position: absolute;
-                                top: 0; left: 0;
-                                width: 100%; height: 100%;
-                                background: linear-gradient(
-                                    to right,
-                                    rgba(0,0,0,0.85) 0%,
-                                    rgba(0,0,0,0.5)  50%,
-                                    rgba(0,0,0,0.2)  100%
-                                );
-                                z-index: 1;
-                            }*/
 
 .hero-contingut {
     perspective: 700px;

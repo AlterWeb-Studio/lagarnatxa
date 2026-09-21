@@ -7,27 +7,16 @@
 
     const inicialitzar = async () => {
 
-                                    /* ── 1. NAVBAR ─────────────────────────────────────── 
-                                    const navbar = document.getElementById('navbar');
-                                    if (navbar) {
-                                        navbar.innerHTML = `
-                                            <nav class="navbar">
-                                                <div class="navbar-logo">
-                                                    <img src="${CONFIG.ASSETS}${CONFIG.LOGO_T}" alt="${CONFIG.NOM}">
-                                                </div>
-                                                <button class="navbar-hamburguesa">☰</button>
-                                                <ul class="navbar-menu">
-                                                    <li><a href="#inici">${CONFIG.NAV_INICI}</a></li>
-                                                    <li><a href="#qui-som">${CONFIG.NAV_NOSALTRES}</a></li>
-                                                    <li><a href="#serveis">${CONFIG.NAV_SERVEIS}</a></li>
-                                                    <li><a href="#perque">${CONFIG.NAV_PXQ}</a></li>
-                                                    <li><a href="#contacte">${CONFIG.NAV_CONTACTE}</a></li>
-                                                </ul>
-                                            </nav>
-                                        `;
-                                    }*/
 
-                /* ── 1. NAVBAR 2.0─────────────────────────────────────── */
+        const capaover = document.getElementById('capaover');
+
+        if (capaover) {
+            capaover.innerHTML = `
+            <div class="capa-overlay"></div>
+            `;
+        }
+
+        /* ── 1. NAVBAR 2.0 ────── Per a Subpágines ────────────────────────────────Alt+196───────
         const navbar2 = document.getElementById('navbar2');
         if (navbar2) {
             navbar2.innerHTML = `
@@ -42,11 +31,11 @@
                     </ul>
                 </nav>
             `;
-        }
+        }*/
 
 
 
-        // Long press logo → login (per si un dia hi ha admin)
+        /* ──── Long press logo → login ────────────────────────────────────────────Alt+196───────
         const logo = document.querySelector('.navbar-logo img');
         let timerLogo;
         const iniciarPress = (e) => {
@@ -61,25 +50,22 @@
         logo.addEventListener('mouseleave', aturarPress);
         logo.addEventListener('touchstart', iniciarPress, { passive: false });
         logo.addEventListener('touchend',   aturarPress);
-        logo.addEventListener('contextmenu', (e) => e.preventDefault());
+        logo.addEventListener('contextmenu', (e) => e.preventDefault());*/
 
-                        /*<span class="hero-eyebrow">Taller de Motocicletes</span>
-                        <h1 class="hero-titol">${CONFIG.NOM}</h1>
-                        <p class="hero-slogan">${CONFIG.SLOGAN}</p>*/
+
         /* ── 2. HERO ───────────────────────────────────────── */
         const hero = document.getElementById('hero');
         if (hero) {
             hero.innerHTML = `
-                  <section class="hero" id="Inici">
-                    <img class="hero-imatge" src="${CONFIG.ASSETS}${CONFIG.BLOC_HERO}"
-                        alt="${CONFIG.NOM}">
-                    <div class="hero-overlay"></div>
-                    <!--div class="hero-contingut">
-                        <p class="hero-slogan">${CONFIG.SLOGAN}</p>
-                        <h1 class="hero-titol">Restaurant</h1>
-                        <h1 class="hero-titol">${CONFIG.NOM}</h1>
-                        <a href="#qui-som" class="hero-boto-principal">${CONFIG.HERO_BOTO}</a>
-                    </div-->
+                <section class="hero" id="Inici">
+                <img class="hero-imatge" src="${CONFIG.ASSETS}${CONFIG.BLOC_HERO}"
+                    alt="${CONFIG.NOM}">
+                            <!--div class="hero-contingut">
+                                <p class="hero-slogan">${CONFIG.SLOGAN}</p>
+                                <h1 class="hero-titol">Restaurant</h1>
+                                <h1 class="hero-titol">${CONFIG.NOM}</h1>
+                                <a href="#qui-som" class="hero-boto-principal">${CONFIG.HERO_BOTO}</a>
+                            </div-->
                 </section>
             `;
         }

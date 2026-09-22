@@ -24,6 +24,7 @@
     --blanc-transp:  rgba(255,255,255,0.12);
     --fucsia-clar:        #BE40E9;
     --fucsia:        rgb(128 7 53);
+    --dorat:         #c8973a;
 
     --font-titol:    'Miracle', sans-serif;
     --font-titol2:    'airstrike', sans-serif;
@@ -67,7 +68,7 @@ body::before {
 }
 
 img   { max-width: 100%; display: block; }
-a     { color: var(--fucsia); text-decoration: none; }
+a     { color: var(--dorat); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 /* Overlay gradient d'esquerra a dreta — fosc a l'esquerra on hi ha el text */
@@ -101,7 +102,7 @@ body.scrolled .navbar {
     background-color: rgba(15, 15, 15, 0.556);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
-    border-bottom: 1px solid var(--fucsia);
+    border-bottom: 1px solid var(--dorat);
 }
 
 .navbar-logo img {
@@ -140,7 +141,7 @@ body.scrolled .navbar-hamburguesa {
     position: absolute;
     top: 70px; left: 0; right: 0;
     background: rgba(15 15 15 / 0.66);
-    border-top: 2px solid var(--fucsia);
+    border-top: 2px solid var(--dorat);
     padding: 24px 20px;
     gap: 20px;
     z-index: 99;
@@ -156,24 +157,25 @@ body.scrolled .navbar-hamburguesa {
 }
 
 .navbar-menu a:hover {
-    color: var(--fucsia);
+    color: var(--dorat);
     text-decoration: none;
 }
 
 /* ─── HERO ────────────────────────────────────────────────── */
 .hero {
     position: relative;
-             height: 100vh;
-   width: 100%;
+             height: 25vh;
+    width: 100%;
     min-height: 190px;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center; 
     text-align: center;
-    border-bottom: 2px solid var(--fucsia);
+    border-bottom: 0px solid var(--dorat);
     
     @media (min-width: 768px) {
+             height: 100vh;
 
     }
 
@@ -199,7 +201,7 @@ body.scrolled .navbar-hamburguesa {
     position: relative;
     width: 100%;
     overflow: hidden;
-    border-bottom: 2px solid var(--fucsia);
+    border-bottom: 2px solid var(--dorat);
 
     @media (min-width: 768px) {
         height: 100vh;
@@ -243,7 +245,7 @@ body.scrolled .navbar-hamburguesa {
 
 .hero-slogan {
     font-size: 1rem;
-    color: var(--fucsia);
+    color: var(--dorat);
     margin-bottom: 32px;
     line-height: 1.5;
 }
@@ -262,7 +264,7 @@ body.scrolled .navbar-hamburguesa {
 .hero-boto-principal {
     display: inline-block;
     margin-top: 78px;
-    background: var(--fucsia);
+    background: var(--dorat);
     color: var(--blanc);
     padding: 10px 28px;
     font-size: 11px;
@@ -275,7 +277,7 @@ body.scrolled .navbar-hamburguesa {
 }
 
 .hero-boto-principal:hover {
-    background: var(--fucsia);
+    background: var(--dorat);
     text-decoration: none;
 }
 
@@ -291,7 +293,7 @@ body.scrolled .navbar-hamburguesa {
     font-weight: 700;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: var(--fucsia);
+    color: var(--dorat);
     margin-bottom: 10px;
 }
 
@@ -343,7 +345,7 @@ body.scrolled .navbar-hamburguesa {
 
     /*background: var(--negre-card);*/
     border: 1px solid rgba(255,255,255,0.06);
-    border-left: 3px solid var(--fucsia);
+    border-left: 3px solid var(--dorat);
     padding: 20px 18px;
     border-radius: var(--radi);
     transition: border-color 0.2s, background 0.2s;
@@ -430,7 +432,7 @@ body.scrolled .navbar-hamburguesa {
 .contacte-ico {
     font-size: 1.4rem;
     flex-shrink: 0;
-    color: var(--fucsia);
+    color: var(--dorat);
     margin-top: 2px;
 }
 
@@ -439,7 +441,7 @@ body.scrolled .navbar-hamburguesa {
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: var(--fucsia);
+    color: var(--dorat);
     margin-bottom: 4px;
 }
 
@@ -454,7 +456,7 @@ body.scrolled .navbar-hamburguesa {
 }
 
 .contacte-valor a:hover {
-    color: var(--fucsia);
+    color: var(--dorat);
 }
 
 /* Botó WhatsApp flotant */
@@ -503,10 +505,10 @@ body.scrolled .navbar-hamburguesa {
 .fc-file-label {
     display: inline-block;
     padding: 12px;
-    border: 3px dashed var(--fucsia);
+    border: 3px dashed var(--dorat);
     border-radius: var(--radi);
     font-size: 13px;
-    color: var(--fucsia);
+    color: var(--dorat);
     cursor: pointer;
     text-align: center;
 }
@@ -525,7 +527,7 @@ body.scrolled .navbar-hamburguesa {
 /* ─── FOOTER ──────────────────────────────────────────────── */
 .footer {
     background: #080808;
-    border-top: 2px solid var(--fucsia);
+    border-top: 2px solid var(--dorat);
     color: var(--gris);
     padding: 40px 24px 24px;
     font-size: 13px;
@@ -563,7 +565,7 @@ body.scrolled .navbar-hamburguesa {
 }
 
 .footer-xarxes a:hover {
-    color: var(--fucsia);
+    color: var(--dorat);
     text-decoration: none;
 }
 
@@ -614,7 +616,7 @@ body.scrolled .navbar-hamburguesa {
 }
 
 .footer-poweredby a {
-    color: var(--fucsia);
+    color: var(--dorat);
 }
 
                                                                 /* ─── SPINNER (per si fa falta) ───────────────────────────── 
@@ -695,7 +697,7 @@ body.scrolled .navbar-hamburguesa {
     right: 0;
     z-index: 200;
     background: #0f0f0f;
-    border-top: 2px solid var(--fucsia);
+    border-top: 2px solid var(--dorat);
     padding: 8px 12px;
     gap: 10px;
     transform: translateY(100%);
@@ -715,7 +717,7 @@ body.scrolled .navbar-hamburguesa {
     color: #fff;
     text-decoration: none;
 }
-.barra-fixa-mobil .boto-fix.trucar   { background: var(--fucsia); }
+.barra-fixa-mobil .boto-fix.trucar   { background: var(--dorat); }
 .barra-fixa-mobil .boto-fix.whatsapp { background: #25D366; }
 
 body.scrolled .barra-fixa-mobil {
@@ -745,6 +747,6 @@ body {
 }
 .stat-google .stat-cta {
     font-size: 0.75rem;
-    color: var(--fucsia);
+    color: var(--dorat);
     margin-top: 4px;
 }

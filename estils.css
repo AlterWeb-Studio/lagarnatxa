@@ -163,15 +163,19 @@ body.scrolled .navbar-hamburguesa {
 /* ─── HERO ────────────────────────────────────────────────── */
 .hero {
     position: relative;
-    width: 100%;
-    height: 100vh;
-    min-height: 500px;
+             height: 100vh;
+   width: 100%;
+    min-height: 190px;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center; 
     text-align: center;
     border-bottom: 2px solid var(--fucsia);
+    
+    @media (min-width: 768px) {
+
+    }
 
 }
 
@@ -181,7 +185,40 @@ body.scrolled .navbar-hamburguesa {
     width: 100%; height: auto;
     object-fit: cover;
     z-index: 0;
+
+    @media (min-width: 768px) {
+        position: relative;
+        width: 75%; height: auto;
+        object-fit: cover;
+        z-index: 0;
+        }
+} 
+
+/* ─── HERO ────────────────────────────────────────────────── 
+.hero {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 2px solid var(--fucsia);
+
+    @media (min-width: 768px) {
+        height: 100vh;
+        min-height: 500px;
+    }
 }
+
+.hero-imatge {
+    display: block;
+    width: 100%;
+    height: auto;
+
+    @media (min-width: 768px) {
+        position: relative;
+        width: 75%; height: auto;
+        object-fit: cover;
+        z-index: 0;
+    }
+}*/
 
 .hero-contingut {
     perspective: 700px;
@@ -632,12 +669,12 @@ body.scrolled .navbar-hamburguesa {
     .hero-titol { font-size: 5rem; }
 
     .hero-botons { flex-direction: row; }
-    .hero-imatge {
+   /* .hero-imatge {
     position: relative;
     width: 75%; height: auto;
     object-fit: cover;
     z-index: 0;
-    }
+    }*/
 
     .seccio { padding: 80px 48px; max-width: 1100px; margin: 0 auto; }
 

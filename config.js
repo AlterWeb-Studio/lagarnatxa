@@ -10,17 +10,17 @@ NOM:            "La Garnatxa",
 LOGO:           "logo/logoGNX.webp",
 LOGO_T:         "logo/logoGNX.png",
 SLOGAN:         "de ca l'Isidret",
-TELEFON:        "930000000",            TELEFON_LABEL:   "Telèfon",     TELEFON_ICO: "📞",
+TELEFON:        "938171996",            TELEFON_LABEL:   "Telèfon",     TELEFON_ICO: "📞",
 MOBIL:          "000 00 00 00",
 WHATSAPP:       "https://wa.me/",       WHATSAPP_LABEL:  "💬 Escríbenos por WhatsApp",
 EMAIL:          "info@lagarnatxa.com",   EMAIL_LABEL:     "e-Mail",       EMAIL_ICO: "✉️",
-ADRECA:         "C/Amalia Soler, 179  08720  Vilafranca del Penedès",
+ADRECA:         "Ctra. Barcelona, 49  08793 Avinyó Nou, Barcelona",
 ADRECA_LABEL: "Adreça",
 ADRECA_ICO: "📍",
 HORA_0:         "Horari",   HR: "🕐",
-HORA_1:         "De dilluns a dissabte de 13:00h a 15:30h.",
-HORA_2:         "Divendres i dissabte de  13:00h a 15:30h - 20:45 a 23:30h",
-HORA_3:         "Diumenge: Tancat",
+HORA_1:         "De dimarts a dijous de 08:30h a 17:00h.",
+HORA_2:         "Divendres i dissabte de  08:30h a 23:30h.",
+HORA_3:         "Diumenge de 08:30h a 17:00h.",
 INSTAGRAM:      "https://www.instagram.com/la_garnatxa/",
 FACEBOOK:       "",
 EMAIL_SUPORT:   "info@alterwebstudio.com",
@@ -55,18 +55,18 @@ HERO_BOTO:      "Qui som...",
 
 
 
-QUI_SOM:            "Benvinguts a La Garnatxa de Ca l'Isidret",
-QUI_DESC1:          "A La Garnatxa de Ca l'Isidret reobrim les portes amb la il·lusió d'oferir-vos una experiència gastronòmica autèntica, basada en la cuina mediterrània i casolana. Una cuina que recupera els sabors de sempre, elaborada amb productes frescos i de proximitat, i amb aquell toc especial que neix de la passió per la bona cuina.",
-QUI_DESC2:          "Hi trobareu plats tradicionals reinterpretats amb cura i respecte: tapes, arrossos, carns a la brasa i guisats que ens recorden la cuina de les àvies. I per completar l'experiència, els nostres postres casolans i una selecció de vins pensada per acompanyar cada plat i realçar-ne els sabors.",
-QUI_DESC3:          "El nostre espai és acollidor i està pensat perquè us hi sentiu com a casa, tant si veniu amb família o amics com si voleu celebrar una ocasió especial. A La Garnatxa de Ca l'Isidret, cada detall compta. Us convidem a descobrir la nostra manera d'entendre la gastronomia i a gaudir d'una cuina feta amb sabor, calidesa i dedicació.",
-QUI_DESC4:         "L'equip de La Garnatxa de Ca l'Isidret",
+QUI_SOM:   "Benvinguts a La Garnatxa de Ca l'Isidret",
+QUI_DESC1: "Des de l'any 2001, som un bar-restaurant de cuina mediterrània i tradicional compromès amb el producte de proximitat i la feina ben feta.",
+QUI_DESC2: "Un espai acollidor i familiar, pensat tant per a àpats diaris com per a trobades i celebracions especials.",
+QUI_DESC3: "Us convidem a descobrir la nostra proposta gastronòmica en un entorn on us sentireu com a casa.",
+QUI_DESC4: "L'equip de La Garnatxa de Ca l'Isidret",
 
 
-COMANDES:           "Comandes per emportar",
-COMANDES1:          "Vols gaudir de la nostra carta fora del Restaurant?",
-COMANDES2:          "Cap problema, fes ara la teva comanda i passa a recollir-la quan et vagi millor.",
-COMANDES3:          "Els teus plats preferits estaran preparats i llestos per endur-te’ls i gaudir-los allà on vulguis.",
-COMANDES4:          "No fem entregues a domicili.",
+COMANDES:  "Servei per emportar",
+COMANDES1: "Prefereixes gaudir de la nostra cuina a casa o a la feina?",
+COMANDES2: "Encarrega els teus plats i passa a recollir-los quan millor et convingui.",
+COMANDES3: "T'ho preparem tot al moment, a punt per portar i gaudir on tu vulguis.",
+COMANDES4:          "",
 //-------------------------------------------------------------------------------------------------------------------------
 
 
@@ -74,18 +74,18 @@ COMANDES4:          "No fem entregues a domicili.",
 
 // 5. SERVEIS (graella)
 QUE_FEM_SRV:        "La nostra cuina..",
-QUE_FEM1:            "A La Garnatxa oferim una cuina basada en productes de proximitat i plats elaborats des de zero. Cada dia proposem un arròs diferent, amb combinacions, textures i estils que permeten gaudir de propostes variades.",
-QUE_FEM2:            "Som un bar-restaurant de tota la vida que, des de l'any 2001, ofereix una carta on el peix i el marisc tenen un paper destacat, sempre amb el nostre estil propi. Els arrossos són una de les nostres especialitats, juntament amb una àmplia varietat de tapes, com el pop a la gallega, les tallarines, els cargols a la llauna o les llàgrimes de pollastre.",
-QUE_FEM3:            "Treballem també amb productes de temporada, peixos i carns de qualitat i una cuina feta amb cura. Entre els nostres serveis, oferim menú diari, que sempre inclou alguna proposta d'arròs, i menú especial els caps de setmana.",
+QUE_FEM1:  "La nostra cuina destaca pel peix, el marisc i, molt especialment, els arrossos, amb una proposta diferent cada dia.",
+QUE_FEM2:  "Completem la carta amb tapes d'elaboració pròpia —com el pop, les tallarines o els cargols a la llauna— i carns a la brasa de qualitat.",
+QUE_FEM3:  "Oferim menú diari i menú especial de cap de setmana, sempre basats en productes de temporada i elaborats des de zero.",
 //-------------------------------------------------------------------------------------------------------------------------
 
 // 6. MAPS MENUS-------------------------------------------------------------------------------------------------------------------------
 MENUS_CANBELLES: [
-{ id: "carta",    titol: "La nostra Carta",          desc: "",                                                                                                                        img: "images/belles/carta.png",       accio: "obrirModalCarta()" },
-{ id: "vins",     titol: "Els nostres Vins i Caves", desc: "",                                                                                                                        img: "images/belles/vins.jpg",        accio: "obrirModalVins()" },
-{ id: "menus",    titol: "Menú Diari",               desc: "Oferim un menú diari variat amb productes de temporada.<br>Primer plat, segón plat i postres amb begudes i pa inclosos.", img: "images/belles/carta.png",       accio: "obrirModalMenuDiari()" },
-{ id: "",         titol: "Menú Cap de Setmana",      desc: "Consulta el horari i menú de cap de setmana.",                                                                            img: "images/belles/menucds.png",     accio: "obrirModalMenuCDS()" },
-{ id: "",         titol: "Menús per a Grups",        desc: "A Can Bellés disposem de menús per a grups de totes les mides que s’adapten a les seves necesitats.",                     img: "images/belles/menugrups.png",   accio: "obrirModalMenuGrups()" },
+{ id: "carta",    titol: "La nostra Carta",          desc: "",                                                                                                                        img: "images/garnatxa/carta.png",       accio: "obrirModalCarta()" },
+{ id: "vins",     titol: "Els nostres Vins i Caves", desc: "",                                                                                                                        img: "images/garnatxa/vins.png",        accio: "obrirModalVins()" },
+{ id: "menus",    titol: "Menú Diari",               desc: "Menú diari variat amb productes de temporada.<br>Primer plat, segón plat amb pa, beguda i postres inclosos.",             img: "images/garnatxa/menu.png",       accio: "obrirModalMenuDiari()" },
+{ id: "",         titol: "Menú Cap de Setmana",      desc: "Consulta el horari i menú de cap de setmana.",                                                                            img: "images/garnatxa/menucds.png",     accio: "obrirModalMenuCDS()" },
+{ id: "",         titol: "Menús per a Grups",        desc: "Disposem de menús per a grups de totes les mides que s’adapten a les seves necesitats.",                                  img: "images/garnatxa/menugrups.png",   accio: "obrirModalMenuGrups()" },
 ],
 
 CAPTURES: {

@@ -8,41 +8,41 @@
     const inicialitzar = async () => {
 
 
-        /* ── 1. NAVBAR 2.0 ────── Per a Subpágines ────────────────────────────────Alt+196───────
-        const navbar2 = document.getElementById('navbar2');
-        if (navbar2) {
-            navbar2.innerHTML = `
-                <nav class="navbar">
-                    <div class="navbar-logo">
-                        <img src="${CONFIG.ASSETS}${CONFIG.LOGO_T}" alt="${CONFIG.NOM}">
-                    </div>
-                    <button class="navbar-hamburguesa">☰</button>
-                    <ul class="navbar-menu">
-                        <li><a href="index.html#inici">${CONFIG.NAV_INICI}</a></li>
+                                                        /* ── 1. NAVBAR 2.0 ────── Per a Subpágines ────────────────────────────────Alt+196───────
+                                                        const navbar2 = document.getElementById('navbar2');
+                                                        if (navbar2) {
+                                                            navbar2.innerHTML = `
+                                                                <nav class="navbar">
+                                                                    <div class="navbar-logo">
+                                                                        <img src="${CONFIG.ASSETS}${CONFIG.LOGO_T}" alt="${CONFIG.NOM}">
+                                                                    </div>
+                                                                    <button class="navbar-hamburguesa">☰</button>
+                                                                    <ul class="navbar-menu">
+                                                                        <li><a href="index.html#inici">${CONFIG.NAV_INICI}</a></li>
 
-                    </ul>
-                </nav>
-            `;
-        }*/
+                                                                    </ul>
+                                                                </nav>
+                                                            `;
+                                                        }*/
 
 
 
-        /* ──── Long press logo → login ────────────────────────────────────────────Alt+196───────
-        const logo = document.querySelector('.navbar-logo img');
-        let timerLogo;
-        const iniciarPress = (e) => {
-            e.preventDefault();
-            timerLogo = setTimeout(() => {
-                if (typeof window.obrirModalLogin === 'function') window.obrirModalLogin();
-            }, 1500);
-        };
-        const aturarPress = () => clearTimeout(timerLogo);
-        logo.addEventListener('mousedown',  iniciarPress);
-        logo.addEventListener('mouseup',    aturarPress);
-        logo.addEventListener('mouseleave', aturarPress);
-        logo.addEventListener('touchstart', iniciarPress, { passive: false });
-        logo.addEventListener('touchend',   aturarPress);
-        logo.addEventListener('contextmenu', (e) => e.preventDefault());*/
+                                                        /* ──── Long press logo → login ────────────────────────────────────────────Alt+196───────
+                                                        const logo = document.querySelector('.navbar-logo img');
+                                                        let timerLogo;
+                                                        const iniciarPress = (e) => {
+                                                            e.preventDefault();
+                                                            timerLogo = setTimeout(() => {
+                                                                if (typeof window.obrirModalLogin === 'function') window.obrirModalLogin();
+                                                            }, 1500);
+                                                        };
+                                                        const aturarPress = () => clearTimeout(timerLogo);
+                                                        logo.addEventListener('mousedown',  iniciarPress);
+                                                        logo.addEventListener('mouseup',    aturarPress);
+                                                        logo.addEventListener('mouseleave', aturarPress);
+                                                        logo.addEventListener('touchstart', iniciarPress, { passive: false });
+                                                        logo.addEventListener('touchend',   aturarPress);
+                                                        logo.addEventListener('contextmenu', (e) => e.preventDefault());*/
 
 
         /* ── 2. HERO ───────────────────────────────────────── */
@@ -54,61 +54,61 @@
                 <div class="hero_pc">
                 <img class="hero-imatge" src="${CONFIG.ASSETS}${CONFIG.BLOC_HERO}"
                     alt="${CONFIG.NOM}">
-                            <!--div class="hero-contingut">
-                                <p class="hero-slogan">${CONFIG.SLOGAN}</p>
-                                <h1 class="hero-titol">Restaurant</h1>
-                                <h1 class="hero-titol">${CONFIG.NOM}</h1>
-                                <a href="#qui-som" class="hero-boto-principal">${CONFIG.HERO_BOTO}</a>
-                            </div-->
+                                                            <!--div class="hero-contingut">
+                                                                <p class="hero-slogan">${CONFIG.SLOGAN}</p>
+                                                                <h1 class="hero-titol">Restaurant</h1>
+                                                                <h1 class="hero-titol">${CONFIG.NOM}</h1>
+                                                                <a href="#qui-som" class="hero-boto-principal">${CONFIG.HERO_BOTO}</a>
+                                                            </div-->
                 <div>
                 </section>
             `;
         }
 
 
-        /* ── 3. STATS ──────────────────────────────────────── 
-        const stats = document.getElementById('stats');
-        if (stats) {
-            stats.innerHTML = `
-                <div class="stats-franja">
-                    <div class="stat-item">
-                        <div class="stat-numero">${CONFIG.ANYS_EXPERIENCIA}</div>
-                        <div class="stat-label">${CONFIG.ANYS_EXPERIENCIA2}</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-numero">${CONFIG.MOTOS_REPARADES}</div>
-                        <div class="stat-label">${CONFIG.MOTOS_REPARADES2}</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-numero">${CONFIG.CLIENTS}</div>
-                        <div class="stat-label">${CONFIG.CLIENTS2}</div>
-                    </div>
+                                                                    /* ── 3. STATS ──────────────────────────────────────── 
+                                                                    const stats = document.getElementById('stats');
+                                                                    if (stats) {
+                                                                        stats.innerHTML = `
+                                                                            <div class="stats-franja">
+                                                                                <div class="stat-item">
+                                                                                    <div class="stat-numero">${CONFIG.ANYS_EXPERIENCIA}</div>
+                                                                                    <div class="stat-label">${CONFIG.ANYS_EXPERIENCIA2}</div>
+                                                                                </div>
+                                                                                <div class="stat-item">
+                                                                                    <div class="stat-numero">${CONFIG.MOTOS_REPARADES}</div>
+                                                                                    <div class="stat-label">${CONFIG.MOTOS_REPARADES2}</div>
+                                                                                </div>
+                                                                                <div class="stat-item">
+                                                                                    <div class="stat-numero">${CONFIG.CLIENTS}</div>
+                                                                                    <div class="stat-label">${CONFIG.CLIENTS2}</div>
+                                                                                </div>
 
-                    <a href="${CONFIG.URL_RESSENYES}" target="_blank" rel="noopener" class="stat-item stat-google">
-                        <div class="stat-numero">${CONFIG.ESTRELLES}⭐</div>
-                        <div class="stat-label">${CONFIG.ESTRELLES2}</div>
-                     <div class="stat-cta">Ver reseñas</div>
-                    </a>
+                                                                                <a href="${CONFIG.URL_RESSENYES}" target="_blank" rel="noopener" class="stat-item stat-google">
+                                                                                    <div class="stat-numero">${CONFIG.ESTRELLES}⭐</div>
+                                                                                    <div class="stat-label">${CONFIG.ESTRELLES2}</div>
+                                                                                <div class="stat-cta">Ver reseñas</div>
+                                                                                </a>
 
-                </div>
-            `;
-        }*/
+                                                                            </div>
+                                                                        `;
+                                                                    }*/
 
 
         /* ── 4. SECCIONS ───────────────────────────────────── */
         const seccions = document.getElementById('seccions');
         if (seccions) {
 
-            // Construeix les targetes de serveis a partir de CONFIG.SERVEIS
-           /* const cardsMenus = CONFIG.MENUS_CANBELLES.map(m => `
-                <div class="servei-card" onclick="${m.accio}" style="cursor:pointer; padding:0; overflow:hidden;">
-                    <img src="${CONFIG.ASSETS}${m.img}" alt="${m.titol}" style="width:100%; height:160px; object-fit:cover; display:block;">
-                    <div style="padding:14px 16px 16px;">
-                        <div class="servei-titol">${m.titol}</div>
-                        ${m.desc ? `<div class="servei-desc">${m.desc}</div>` : ''}
-                    </div>
-                </div>
-            `).join('');*/
+                                                                // Construeix les targetes de serveis a partir de CONFIG.SERVEIS
+                                                            /* const cardsMenus = CONFIG.MENUS_CANBELLES.map(m => `
+                                                                    <div class="servei-card" onclick="${m.accio}" style="cursor:pointer; padding:0; overflow:hidden;">
+                                                                        <img src="${CONFIG.ASSETS}${m.img}" alt="${m.titol}" style="width:100%; height:160px; object-fit:cover; display:block;">
+                                                                        <div style="padding:14px 16px 16px;">
+                                                                            <div class="servei-titol">${m.titol}</div>
+                                                                            ${m.desc ? `<div class="servei-desc">${m.desc}</div>` : ''}
+                                                                        </div>
+                                                                    </div>
+                                                                `).join('');*/
 
             const cardsMenus = CONFIG.MENUS_CANBELLES.map(m => `
                 <div class="servei-card" id="${m.id || ''}" onclick="${m.accio}" style="cursor:pointer; padding:0; overflow:hidden;">
@@ -135,7 +135,7 @@
                         ${CONFIG.TELEFON_ICO} Trucan's
                     </a>
                 </section>
-
+                                    <hr class="separador">
                 <!-- SERVEIS -->
                 <section class="seccio">
                     <h2 class="seccio-titol">${CONFIG.QUE_FEM_SRV}</h2>
@@ -146,6 +146,7 @@
                         ${cardsMenus}
                     </div>
                 </section>
+                                    <hr class="separador">
 
                  <!-- PER EMPORTAR -->
                 <section class="seccio" id="per-emportar">

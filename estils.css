@@ -15,6 +15,8 @@
 :root {
     --negre:         #0f0f0f;
     --negre-transp:  rgba(0, 0, 0, 0.22);
+    --negre-transp2:  rgba(0 0 0 / 0.57);
+    
     --negre-suau:    #1a1a1a;
     --negre-card:    #1e1e1e;
     --taronja:       #f97316;
@@ -99,7 +101,7 @@ a:hover { text-decoration: underline; }
 }
 
 body.scrolled .navbar {
-    background-color: rgba(15, 15, 15, 0.556);
+    background-color: var(--negre-transp2);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     border-bottom: 1px solid var(--dorat);
@@ -425,7 +427,7 @@ body.scrolled .navbar-hamburguesa {
 
 /* ─── CONTACTE ────────────────────────────────────────────── */
 #contacte {
-    background: var(--negre);
+    background: var(--negre-transp2);
 }
 
 .contacte-grid {
@@ -538,7 +540,7 @@ body.scrolled .navbar-hamburguesa {
 
 /* ─── FOOTER ──────────────────────────────────────────────── */
 .footer {
-    background: #080808;
+    background: var(--negre-transp2);
     border-top: 2px solid var(--dorat);
     color: var(--gris);
     padding: 40px 24px 24px;

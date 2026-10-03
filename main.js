@@ -126,10 +126,10 @@
                 <!-- QUI SOM -->
                 <section class="seccio" id="qui-som">
                     <h2 class="seccio-titol">${CONFIG.QUI_SOM}</h2>
-                    <p class="seccio-text">${CONFIG.QUI_DESC1}</p>
-                    <p class="seccio-text">${CONFIG.QUI_DESC2}</p>
-                    <p class="seccio-text">${CONFIG.QUI_DESC3}</p>
-                    <p class="seccio-text"><strong>${CONFIG.QUI_DESC4}</strong></p>
+                    <p class="seccio-text">${CONFIG.QUI_SOM_DESC1}</p>
+                    <p class="seccio-text">${CONFIG.QUI_SOM_DESC2}</p>
+                    <p class="seccio-text">${CONFIG.QUI_SOM_DESC3}</p>
+                    <p class="seccio-text"><strong>${CONFIG.QUI_SOM_DESC4}</strong></p>
                     <a href="tel:${CONFIG.TELEFON}" class="hero-boto-principal btn-balla"
                         style="display:inline-block; margin-top: 8px;">
                         ${CONFIG.TELEFON_ICO} Trucan's

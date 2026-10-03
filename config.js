@@ -56,10 +56,10 @@ HERO_BOTO:      "Qui som...",
 
 
 QUI_SOM:   "Benvinguts a La Garnatxa de Ca l'Isidret",
-QUI_DESC1: "Des de l'any 2001, som un bar-restaurant de cuina mediterrània i tradicional compromès amb el producte de proximitat i la feina ben feta.",
-QUI_DESC2: "Un espai acollidor i familiar, pensat tant per a àpats diaris com per a trobades i celebracions especials.",
-QUI_DESC3: "Us convidem a descobrir la nostra proposta gastronòmica en un entorn on us sentireu com a casa.",
-QUI_DESC4: "L'equip de La Garnatxa de Ca l'Isidret",
+QUI_SOM_DESC1: "Des de l'any 2001, som un bar-restaurant de cuina mediterrània i tradicional compromès amb el producte de proximitat i la feina ben feta.",
+QUI_SOM_DESC2: "Un espai acollidor i familiar, pensat tant per a àpats diaris com per a trobades i celebracions especials.",
+QUI_SOM_DESC3: "Us convidem a descobrir la nostra proposta gastronòmica en un entorn on us sentireu com a casa.",
+QUI_SOM_DESC4: "L'equip de La Garnatxa de Ca l'Isidret",
 
 
 COMANDES:  "Servei per emportar",
